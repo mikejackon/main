@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美团点餐</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            height: 100%;     
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 1rem;
+        }
+        ul>li{
+            display: flex;
+            margin-bottom: 1.5rem;
+        }
+        img{
+            border-radius: 0.5rem;
+            height: 5rem;
+            width: 5rem;
+        }
+        .li-right{
+            flex-grow: 1;
+            margin-left: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 0.1rem solid rgb(237, 233, 233);
+        }
+        .title{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .subtitle{
+            font-size: 0.7rem;
+            color: rgb(118, 115, 115);
+            margin-left: 0.4rem;
+            margin-top: 0.8rem;
+        }
+        .km{
+            font-size: 0.7rem;
+            color: rgb(118, 115, 115);
+            margin-top: 0.8rem;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .icon{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+        .dian{
+            background-color: rgb(245, 232, 183);
+            color: rgb(233, 206, 54);
+            margin-left: 0.5rem;
+            font-size: 0.6rem;
+            padding: 0.2rem;
+        }
+        .yu{
+            background-color: rgb(236, 177, 170);
+            color: rgb(240, 89, 78);
+            margin-left: 0.5rem;
+            font-size: 0.6rem;
+            padding: 0.2rem;
+        }
+        .wai{
+            background-color: rgb(195, 200, 241);
+            color: rgb(85, 74, 240);
+            margin-left: 0.5rem;
+            font-size: 0.6rem;
+            padding: 0.2rem;
+        }
+    </style>
+
+</head>
+<body>
+    <ul>
+        <li>
+            <div>
+                <img src="assets/imgs/美团/1.png" alt="酥大娘中国烧饼"> 
+            </div>
+            <div class="li-right">
+                <div>
+                    <div class="title">
+                        酥大娘中国烧饼
+                    </div>
+                    <div class="subtitle">
+                        江宁区
+                    </div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <div class="dian">
+                            点
+                        </div>
+                    </div>
+                    <div class="km">
+                        2.6km
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="assets/imgs/美团/2.png" alt="咂咂嘴鸡米饭·庆小年下饭小火锅"> 
+            </div>
+            <div class="li-right">
+                <div>
+                    <div class="title">
+                        咂咂嘴鸡米饭·庆小年下饭小火锅
+                    </div>
+                    <div class="subtitle">
+                        江宁区
+                    </div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <div class="yu">
+                            预
+                        </div>
+                        <div class="dian">
+                            点
+                        </div>
+                    </div>
+                    <div class="km">
+                        444m
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="assets/imgs/美团/3.png" alt="鲍厨娘"> 
+            </div>
+            <div class="li-right">
+                <div>
+                    <div class="title">
+                        鲍厨娘
+                    </div>
+                    <div class="subtitle">
+                        江宁区
+                    </div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <div class="dian">
+                            点
+                        </div>
+                    </div>
+                    <div class="km">
+                        3km
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="assets/imgs/美团/4.png" alt="旺福福串串"> 
+            </div>
+            <div class="li-right">
+                <div>
+                    <div class="title">
+                        旺福福串串
+                    </div>
+                    <div class="subtitle">
+                        江宁区
+                    </div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <div class="dian">
+                            点
+                        </div>
+                    </div>
+                    <div class="km">
+                        5.3km
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="assets/imgs/美团/5.png" alt="一串宗师"> 
+            </div>
+            <div class="li-right">
+                <div>
+                    <div class="title">
+                        一串宗师
+                    </div>
+                    <div class="subtitle">
+                        江宁区
+                    </div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <div class="wai">
+                            外
+                        </div>
+                        <div class="yu">
+                            预
+                        </div>
+                        <div class="dian">
+                            点
+                        </div>
+                    </div>
+                    <div class="km">
+                        1.7km
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="assets/imgs/美团/6.png" alt="刘文祥麻辣烫"> 
+            </div>
+            <div class="li-right">
+                <div>
+                    <div class="title">
+                        刘文祥麻辣烫
+                    </div>
+                    <div class="subtitle">
+                        江宁区
+                    </div>
+                </div>
+                <div>
+                    <div class="icon">
+                        
+                        <div class="wai">
+                            外
+                        </div>
+                        <div class="dian">
+                            点
+                        </div>
+                    </div>
+                    <div class="km">
+                        2.4km
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="assets/imgs/美团/7.png" alt="桥头排骨女人街店"> 
+            </div>
+            <div class="li-right">
+                <div>
+                    <div class="title">
+                        桥头排骨女人街店
+                    </div>
+                    <div class="subtitle">
+                        江宁区
+                    </div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <div class="yu">
+                            预
+                        </div>
+                        <div class="dian">
+                            点
+                        </div>
+                    </div>
+                    <div class="km">
+                        2.5km
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
