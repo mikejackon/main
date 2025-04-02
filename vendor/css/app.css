@@ -1,0 +1,964 @@
+@font-face {
+    font-family: proxima_bold;
+    src: url(../../fonts/ProximaNova-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: proxima_regular;
+    src: url(../../fonts/ProximaNova-Regular.ttf);
+}
+
+body {
+    font-family: proxima_regular;
+    color: #323232;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.primary-clr {
+    color: #12b399;
+}
+
+.secondary-clr {
+    color: #e67d23;
+}
+
+.font-bold {
+    font-family: proxima_bold;
+}
+
+.font-regular {
+    font-family: proxima_regular;
+}
+
+
+
+p {
+    margin: 0px;
+}
+
+header {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 15px 0px;
+}
+
+.dark-header {
+    background: #323232;
+    border: none;
+}
+
+.dark-footer {
+    background: #323232;
+}
+
+.cta-button {
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.cta-button a {
+    width: 100%;
+    color: #e67d23;
+    border: 2px solid #e67d23;
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.gr-logo img {
+    max-width: 80px;
+}
+
+.top-product {
+    padding: 40px 0px;
+}
+
+.product-img {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.product-img img {
+    min-height: 500px;
+    object-fit: cover;
+}
+
+.product-img .aft_discount {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    background: #12b399;
+    right: -45px;
+    border-radius: 50%;
+    transform: translate(0, -50%);
+    color: #fff;
+    padding: 22px 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.section-heading h3 {
+    color: #12b399;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.section-heading h2 {
+    font-size: 40px;
+}
+
+.feature-list ul li {
+    color: #12b399;
+    font-size: 18px;
+}
+
+
+.feature-list ul li i {
+    color: #12b399;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.call-button a {
+    background: #e67d23;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    font-family: proxima_bold;
+}
+
+.featured-section {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 50px 0px;
+    margin: 30px 0px;
+}
+
+.rating-user {
+    color: #ffa800;
+}
+
+.rating-user i {
+    margin-right: 5px;
+}
+
+.review-image img {
+    border-radius: 50%;
+    max-width: 50px;
+    object-fit: cover;
+}
+
+.user_name {
+    font-size: 16px;
+}
+
+
+.featured-section img {
+    max-width: 180px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.featured-section img:hover {
+    -webkit-filter: invert(100%);
+    /* Safari */
+    filter: invert(100%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.featured-section p {
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.video-section {
+    padding: 50px 0px;
+}
+
+.video-block {
+    background: url(../../img/pro_pot.jpg);
+    min-height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    margin: 50px 0px -180px;
+    position: relative;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.12);
+}
+
+.vd-overlay {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: #12b399a8;
+    height: 100%;
+    color: #fff;
+    padding-top: 23%;
+    cursor: pointer;
+}
+
+.vd-overlay p {
+    font-size: 24px;
+    font-family: proxima_bold;
+}
+
+.vd-overlay p i {
+    border: 2px solid #ddd;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    padding: 11px 15px;
+    margin-right: 15px;
+}
+
+.grey-bg {
+    background: #f6f6f6;
+    padding: 200px 0px 50px;
+}
+
+.white-box {
+    background: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.05) !important;
+    cursor: pointer;
+}
+
+.icon-box i {
+    font-size: 40px;
+}
+
+.ictext-box h2 {
+    color: #12b399;
+    font-size: 24px;
+
+}
+
+.white-box:hover .ictext-box h2 {
+    color: #fff !important;
+}
+
+.reviews-carousel {
+    background: #12b399;
+    padding: 70px 0px;
+}
+
+
+#rv-slider .carousel-control-prev {
+    left: -140px;
+    opacity: 1;
+}
+
+#rv-slider .carousel-control-next {
+    right: -140px;
+    opacity: 1;
+}
+
+.clr-wh {
+    color: #fff !important;
+}
+
+.bottom-product {
+    padding: 70px 0px;
+}
+
+
+
+footer {
+    border-top: 1px solid #e7e7e7;
+    padding: 15px 0px;
+}
+
+.footer-links {
+    float: right;
+}
+
+.footer-links li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.footer-links li a {
+    color: #e67d23
+}
+
+.bg-form {
+    background: url('../../img/flpot.jpg');
+    min-height: 620px;
+
+
+}
+
+.greybg {
+    background: #e9e9e9;
+}
+
+
+.bgwhite {
+    background: #fff;
+}
+
+.bgprimary {
+    background: #23b299;
+    min-height: 620px;
+}
+
+.form-heading {
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.form-heading h2 {
+    font-size: 26px;
+}
+
+.form-heading h3 {
+    font-size: 22px;
+}
+
+.form-only-row label {
+    color: #fff;
+}
+
+.form-only-row {
+    padding: 0px 20px;
+}
+
+.form-only-row input {
+    height: 47px;
+    border-radius: 3px;
+    border: none;
+}
+
+.form-only-row select {
+    height: 47px;
+    border-radius: 3px;
+    border: none;
+}
+
+.pre-button {
+    height: 60px;
+    border-radius: 3px;
+    border: none;
+    background: #323232;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: proxima_bold;
+}
+
+
+.bg-init {
+    background: #fff;
+    padding: 50px 50px;
+}
+
+.event-date {
+    padding: 30px 10px
+}
+
+.date-box {
+    background: #fff;
+    text-align: center;
+    padding: 15px 0px;
+    color: #23b299;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.event-datefull {
+    color: #fff;
+    font-size: 20px;
+}
+
+.presenter-box {
+    background: #11a28a;
+    padding: 30px 30px;
+    color: #fff;
+    margin: 0px -15px;
+}
+
+.pr-img img {
+    max-width: 90px;
+    border-radius: 50%;
+}
+
+.pr-name h3 {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.pr-content p {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.webinar-dtl {
+    padding: 30px 0px
+}
+
+#timer div {
+    background: #fff;
+    border: 2px solid #e1e1e1;
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    font-size: 36px;
+    width: 21%;
+    border-radius: 5px;
+    color: #23b299;
+    float: left;
+    font-family: proxima_bold;
+    margin: 20px 2%;
+    line-height: 30px;
+}
+
+#timer div span {
+    font-family: proxima_regular;
+    font-size: 20px;
+
+
+}
+
+#timer {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+#timer div:first-child {
+    margin: 20px 2% 0px 0px;
+}
+
+.atheight {
+    min-height: auto;
+}
+
+.warning-div img {
+    max-width: 50px;
+}
+
+.warning-div p span {
+    color: #e67d23;
+}
+
+.br-around {
+    border: 2px solid #e67d23;
+    padding: 40px 50px;
+}
+
+
+.top-secopt {
+    background: url(../../img/optbg.png);
+    background-position: left 50px;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.bg-form-dark {
+    background: #323232;
+    padding: 50px 20px;
+}
+
+.int-hd h2 {
+    font-size: 24px;
+}
+
+
+.int-hd h3 {
+    font-size: 16px;
+}
+
+.prebutton1 {
+    height: 60px;
+    border-radius: 3px;
+    border: none;
+    background: #e67d23;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: proxima_bold;
+}
+
+.sc-primary {
+    padding: 70px 0px;
+    background: #12b399;
+}
+
+
+.icon-box span {
+    font-size: 26px;
+    color: #12b399;
+    border: 1px solid #ddd;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 62px;
+}
+
+.mlbox:hover .ictext-box h2 {
+    color: #000 !important;
+}
+
+.cn-icon i {
+    color: #fff;
+    font-size: 30px;
+    height: 90px;
+    width: 90px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 90px;
+    margin: 20px 0px;
+}
+
+.sc-header {
+    background: #23b299;
+    padding-bottom: 100px;
+    border: none;
+}
+
+.sc-footer {
+    background: #23b299;
+
+}
+
+.bg-whitefull {
+    background: #fff;
+    margin: -60px 0px 50px 0px;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.1) !important;
+    padding: 30px;
+    margin-bottom: :300px;
+}
+
+.blog-img img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.section {
+    padding: 0px 30px 0px 30px;
+}
+
+
+.button {
+    padding: 20PX 30px 20px 30px;
+    background: #e47d31;
+    color: #fff;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.font-sml {
+    font-size: 36px !important;
+}
+
+.pos-rel {
+    position: relative;
+    top: 10px
+}
+
+.background {
+    background: #23b299;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.font-size {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.font-size2nd {
+    font-size: 21px;
+}
+
+.b-color {
+    color: #000;
+}
+
+
+.bgwhite1 {
+    background: #23b299;
+    color: #fff;
+}
+
+.top-padding {
+    padding-top: 160px;
+    color: #fff;
+}
+
+.bd-overlay {
+    background: rgba(35, 178, 153, 0.78);
+    margin: 0px -15px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.has_icon i {
+    margin-right: 10px;
+
+}
+
+.icn-wh i {
+    color: :#fff;
+}
+
+.icon-box2 span {
+    font-size: 26px;
+    color: #ffffff;
+    border: 1px solid #ddd;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 62px;
+    background: #12b399;
+}
+
+.bg-grey {
+    background: #efefef;
+    padding: 70px 0px;
+}
+
+.card-header button {
+    color: #000;
+    font-size: 20px;
+}
+
+.multistep label {
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    color: #12b399;
+    font-family: proxima_bold;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+
+.multistep select {
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    color: #e47d31;
+    font-family: proxima_bold;
+    margin: 10px 0px;
+    cursor: pointer;
+
+}
+
+.multistep input {
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    color: #e47d31;
+    font-family: proxima_bold;
+    margin: 10px 0px;
+    cursor: pointer;
+
+}
+
+.quiz-text h2 {
+    font-size: 24px;
+}
+
+.quiz-text h3 {
+    font-size: 20px;
+}
+
+.multistep input:focus,
+.multistep select:focus {
+    outline: 0;
+    border: 1px solid #e47d31;
+}
+
+.multistep input[type="radio"] {
+    display: none;
+}
+
+.multistep input[type="radio"]:checked ~ label {
+    border: 1px solid #e47d31;
+    color: #e47d31;
+}
+
+.cta-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #eee;
+    padding: 10px 10px 10px 10px;
+    display: none;
+}
+
+
+.sc-footer .footer-links li a {
+    color: #fff;
+     !important;
+}
+
+@media only screen and (max-width: 968px) {
+    header {
+        text-align: center;
+    }
+
+    .section h1 {
+        font-size: 24px;
+    }
+
+    .blog-img img {
+        height: 250px;
+        object-fit: cover;
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .hdphone {
+        display: none;
+    }
+
+    .gr-logo {
+        display: none;
+    }
+
+    .cta-button a {
+        width: 100%;
+        padding: 10px 10px;
+        margin: 16px;
+    }
+
+    .product-img img {
+        min-height: 250px;
+        object-fit: cover;
+    }
+
+    .bg-whitefull {
+
+        padding: 15px;
+    }
+
+    .product-img .aft_discount {
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        top: 75%;
+        background: #12b399;
+        right: 0;
+        border-radius: 50%;
+        transform: translate(0, -50%);
+        color: #fff;
+        padding: 17px 22px;
+        line-height: 20px;
+        text-align: left;
+        font-size: 17px;
+        left: 10px;
+    }
+
+    .top-product {
+        padding: 10px 0px;
+    }
+
+    .logo img {
+        max-width: 120px;
+    }
+
+    .section-heading {
+        text-align: center;
+    }
+
+    .section-heading h3 {
+        font-size: 16px;
+    }
+
+    .section-heading h2 {
+        font-size: 24px;
+    }
+
+    .feature-list ul li {
+        color: #12b399;
+        font-size: 14px;
+    }
+
+    .feature-list ul li i {
+        color: #12b399;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+
+    .bgprimary {
+        background: #23b299;
+        min-height: auto;
+        padding: 0px 0px 50px;
+        padding: 0px 0px 50px;
+    }
+
+    .bg-form {
+        min-height: 400px;
+    }
+
+    .top-padding {
+        padding-top: 10px;
+    }
+
+    .bd-overlay {
+        padding: 30px;
+    }
+
+    .bg-init {
+        background: #fff;
+        padding: 20px 20px;
+    }
+
+    .footer-links {
+        float: none;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .presenter-box {
+
+        margin: 0px 0px;
+    }
+
+    .cta-fixed .call-button a {
+        padding: 12px 20px;
+    }
+
+
+    #timer div {
+        background: #fff;
+        border: 2px solid #e1e1e1;
+        padding: 15px 10px 10px 10px;
+        text-align: center;
+        font-size: 22px;
+        width: 23%;
+        border-radius: 5px;
+        color: #23b299;
+        float: left;
+        font-family: proxima_bold;
+        margin: 20px 1% !important;
+        line-height: 30px;
+    }
+
+    #timer div span {
+        font-family: proxima_regular;
+        font-size: 14px;
+
+
+    }
+
+    .featured-section {
+        text-align: center;
+    }
+
+    .featured-section img {
+        max-width: 120px;
+        margin: 20px 0px
+    }
+
+    .video-block {
+
+        min-height: 220px;
+
+    }
+
+
+    .white-box {
+        margin: 10px 0px;
+    }
+
+    #rv-slider .carousel-control-prev {
+        display: none;
+    }
+
+    #rv-slider .carousel-control-next {
+        display: none;
+    }
+
+    .gr-ft img {
+        max-width: 60px;
+    }
+
+
+    .top-secopt {
+        background: none;
+
+    }
+
+    .order-minus {
+        order: -1;
+    }
+
+    .logo-dark {
+        padding: 15px;
+    }
+
+    footer .container {
+        padding-bottom: 70px !important;
+    }
+
+    .cta-fixed {
+
+        display: block;
+    }
+
+}
